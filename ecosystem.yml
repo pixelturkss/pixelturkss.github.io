@@ -1,0 +1,16 @@
+apps:
+  - script: ./build/web.js
+    name: 'web'
+    node_args: --nouse-idle-notification --expose-gc --inspect
+    env:
+      HOSTURL: 'https://railway.com/project/461b0636-2427-40e1-aca1-d70f741faf38?environmentId=010dda81-b3c8-4403-b138-452f7f6e3f53'
+      ASSET_SERVER: 'http://localhost'
+      PORT: 80
+      REDIS_URL: 'redis://default:HZoSEeukymnOjKlwxDEyEBfuuDkMCpwf@redis.railway.internal:6379'
+      MYSQL_HOST: 'mysql.railway.internal'
+      MYSQL_USER: 'root'
+      MYSQL_DATABASE: 'railway'
+      LOG_MYSQL: 1
+      MYSQL_PW: 'AANXYwJGBIDbsFjZTIVGBLokdFYSRcoy'
+      SESSION_SECRET: 'ayyylmao'
+      ADMIN_IDS: '1,2'
