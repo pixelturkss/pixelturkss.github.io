@@ -42,5 +42,29 @@ body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relati
                         <div data-range="61-80" class="segment"><span></span></div>
                         <div data-range="81-100" class="segment"><span></span></div>
                     </div>
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBvrnHo0RY5UV07lWpC_rbGu1xG1tSpHPs",
+    authDomain: "pixelturkss.firebaseapp.com",
+    projectId: "pixelturkss",
+    storageBucket: "pixelturkss.firebasestorage.app",
+    messagingSenderId: "896423848772",
+    appId: "1:896423848772:web:e14bc3294e79b170ba0511",
+    measurementId: "G-PMZXTHXEQY"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 
                 </div></body><chatgpt-sidebar data-gpts-theme="light"></chatgpt-sidebar></html>
+
